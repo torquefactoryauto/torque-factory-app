@@ -4,10 +4,19 @@ version = "0.1.0"
 description = "A simple Streamlit app template."
 readme = "README.md"
 requires-python = ">=3.14"
+[project]
+name = "tfmatrix"
+version = "0.1.0"
+description = "The Torque Factory Management System."
+readme = "README.md"
+requires-python = ">=3.14"
 dependencies = [
     "streamlit>=1.61.1",
     "supabase>=2.0.0",
 ]
+
+[tool.uv]
+package = false
 
 [tool.uv]
 package = false
